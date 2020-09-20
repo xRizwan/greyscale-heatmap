@@ -1,0 +1,264 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ECEEF1
+}
+.bordered{
+    border: 1px solid black;
+}
+.header{
+    background-color: #ECEEF1;
+    height: 90px;
+    display: flex;
+}
+.basic{
+    background-color: #ECEEF1;
+}
+.box{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+    z-index: 999;
+    margin-left: 3%;
+}
+.semi-important{
+    background-color: rgb(173, 173, 173);
+}
+.important{
+    background-color: grey;
+}
+.search{
+    width: 27%;
+    height: 55px;
+    top: 16%;
+    margin-left: 6%;
+}
+.logo{
+    width: 5%;
+}
+.articles, .old-articles, .self-promotion, .p-of-week, .footer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.footer{
+    margin-top: 40px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+.p-of-week{
+    box-sizing: border-box;
+    height: 300px;
+    display: flex;
+    padding: 20px;
+}
+.self-promotion{
+    width: 99.4%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 540px;
+}
+.article-left, .article-right{
+    width: 50%;
+    padding: 5%;
+    padding-top: 12%;
+    box-sizing: border-box;
+}
+.o-article-left, .o-article-middle, .o-article-right{
+    width: 33.3%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.second{
+    padding-top: 0%;
+}
+.third{
+    padding-top: 4%;
+}
+.set2{
+    height: 300px;
+}
+.ar-content{
+    height: 300px;
+    width: 80%;
+}
+.o-ar-content{
+    height: 20px;
+    width: 20%;
+}
+.flex-container{
+    display: flex;
+}
+.poster{
+    width: 25%;
+    height: 80px;
+}
+.o-poster{
+    width: 60%;
+    height: 20px;
+    margin-top: 5px;
+}
+.name{
+    width: 80%;
+    height: 40px;
+    margin-left: 5%;
+}
+.ar-info{
+    padding-top: 5%;
+}
+.ar-name{
+    width: 100%;
+    height: 25px;
+}
+.o-ar-name, .o-ar-intro{
+    width: 60%;
+    height: 35px;
+    margin-top: 5px;
+}
+.o-ar-intro{
+    width: 100%;
+}
+.fix{
+    margin: 0;
+}
+.top-heading{
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    left: 33.8%;
+}
+.top-heading::after{
+    content: "";
+    width: 60%;
+    height: 50px;
+    background-color: grey;
+    position: relative;
+    top: 45px;
+    left: 20%;
+    display: block;
+}
+.self-about{
+    width: 30%;
+    height: 200px;
+}
+.about-text{
+    width: 40%;
+    height: 20px;
+    margin: 0 auto;
+}
+.sender{
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.btn{
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: 60%;
+}
+.features{
+    width: 65%;
+    margin-left: 4%;
+}
+.photo{
+    width: 25%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.feature-text, .feature-btn, .feature-outro{
+    width: 65%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.feature-btn{
+    margin-top: 1%;
+    width: 30%;
+}
+.feature-outro{
+    margin-top: 1%;
+    width: 10%;
+}
+.feature-intro{
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.ffix{
+    margin-top: 0%;
+}
+.p-photo{
+    width: 20%;
+    height: 200px;
+    margin-top: 5%;
+}
+.p-feature{
+    width: 70%;
+    margin-left: 5%;
+    position: relative;
+    top: 1%;
+}
+.center{
+    margin: 0 auto;
+}
+.foot-heading{
+    width: 400px;
+    height: 30px;
+}
+.boxed{
+    width: 10%;
+    height: 40px;
+    margin-left: 3%;
+}
+.links{
+    margin-top: 50px;
+}
+.foot-note{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    height: 350px;
+    display: flex;
+}
+.grid{
+    width: 35%;
+}
+.image{
+    width: 50%;
+    height: 160px;
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+}
+.g-text, .g-text2, .g-text3, .g-text4{
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.g-text2, .g-text3{
+    margin-top: 0%;
+}
+.g-text2{
+    width: 50%;
+}
+.g-text3{
+    width: 30%;
+}
+.g-text4{
+    margin-top: 35px;
+}
